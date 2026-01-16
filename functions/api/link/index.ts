@@ -1,4 +1,4 @@
-import { links, Env } from '../_shared/store'
+import { links, Env } from '../../_shared/store'
 
 // POST /api/link - Create new link
 export const onRequestPost: PagesFunction<Env> = async (context) => {

@@ -1,4 +1,4 @@
-import { bins, Env } from '../_shared/store'
+import { bins, Env } from '../../_shared/store'
 
 // POST /api/bin - Create new bin
 export const onRequestPost: PagesFunction<Env> = async (context) => {
